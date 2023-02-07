@@ -3,7 +3,58 @@ section {
   width: 30%;
   display: inline-block;
 }
-
+html {
+  font-size: 62.5%;
+  color: #207D7A;
+}
 img {
   display: inline-block;
+}
+body {
+  background-color: #f9f5f1;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  background-image: url(images/paper-texture.png);
+  background-repeat: repeat;
+  background-size: contain;
+}
+h1 {
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 20rem;
+  line-height: 0.8;
+  margin: 0;
+  min-width: 300px;
+}
+section {
+  text-align: right;
+}
+section p {
+  font-size: 1.4rem;
+}
+.book-image {
+  width: 60%;
+}
+.head-nav {
+  display: flex;
+  justify-content: center;
+  /* TODO: Borders and shit */
+  border-bottom: 1px;
+  border-color: black;
+  border-width: 10px;
+}
+
+.nav-menu .explore {
+  text-align: center;
+  display: block;
+  font-size: 1.2rem;
+}
+.head-nav li {
+  list-style-type: none;
+  display: inline;
+  background-color: #207D7A;
+  color: white;
+  font-size: 1.5rem;
+}
+.head-nav ul {
+  padding-left: 0;
 }
